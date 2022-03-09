@@ -1,0 +1,262 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-07 20:43+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\catalog\models.py:10
+msgid "Enter a book genre (e.g. Science Fiction)"
+msgstr "Nhập thể loại sách (Ví dụ: khoa học viễn tưởng)"
+
+#: .\catalog\models.py:18
+msgid "Enter a brief description of the book"
+msgstr "Nhập mô tả ngắn gọn về cuốn sách"
+
+#: .\catalog\models.py:20
+msgid ""
+"13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
+"\">ISBN number</a>"
+msgstr "Số ISBN (13 ký tự)"
+
+#: .\catalog\models.py:21
+msgid "Select a genre for this book"
+msgstr "Chọn thể loại cho cuốn sách này"
+
+#: .\catalog\models.py:42
+msgid "Unique ID for this particular book across whole library"
+msgstr "ID duy nhất cho cuốn sách này trong toàn thư viện"
+
+#: .\catalog\models.py:60
+msgid "Book availability"
+msgstr "Sách sẵn có"
+
+#: .\catalog\templates\base_generic.html:19
+msgid "Home"
+msgstr "Trang chủ"
+
+#: .\catalog\templates\base_generic.html:20
+msgid "All books"
+msgstr "Sách"
+
+#: .\catalog\templates\base_generic.html:21
+msgid "All authors"
+msgstr "Tác giả"
+
+#: .\catalog\templates\base_generic.html:23
+msgid "User"
+msgstr "Người dùng"
+
+#: .\catalog\templates\base_generic.html:24
+msgid "My Borrowed"
+msgstr "Sách đã mượn"
+
+#: .\catalog\templates\base_generic.html:25
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: .\catalog\templates\base_generic.html:27
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: .\catalog\templates\catalog\author_detail.html:5
+msgid "Name:"
+msgstr "Tên:"
+
+#: .\catalog\templates\catalog\author_detail.html:6
+msgid "Date of birth:"
+msgstr "Ngày sinh:"
+
+#: .\catalog\templates\catalog\author_detail.html:7
+msgid "Date of death:"
+msgstr "Ngày mất:"
+
+#: .\catalog\templates\catalog\author_list.html:5
+msgid "Author List"
+msgstr "Danh sách tác giả"
+
+#: .\catalog\templates\catalog\author_list.html:15
+msgid "There are no author in the library."
+msgstr "Không có tác giả nào trong thư viện"
+
+#: .\catalog\templates\catalog\book_detail.html:5
+msgid "Title:"
+msgstr "Tiêu đề:"
+
+#: .\catalog\templates\catalog\book_detail.html:6
+msgid "Author:"
+msgstr "Tác giả:"
+
+#: .\catalog\templates\catalog\book_detail.html:7
+msgid "Summary:"
+msgstr "Tổng cộng:"
+
+#: .\catalog\templates\catalog\book_detail.html:8
+msgid "ISBN:"
+msgstr "ISBN:"
+
+#: .\catalog\templates\catalog\book_detail.html:9
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+#: .\catalog\templates\catalog\book_detail.html:10
+msgid "Genre:"
+msgstr "Thể loại:"
+
+#: .\catalog\templates\catalog\book_detail.html:13
+msgid "Copies"
+msgstr "Số bản:"
+
+#: .\catalog\templates\catalog\book_detail.html:20
+msgid "Due to be returned:"
+msgstr "Hạn hoàn trả:"
+
+#: .\catalog\templates\catalog\book_detail.html:22
+msgid "Imprint:"
+msgstr "Nhà xuất bản"
+
+#: .\catalog\templates\catalog\book_detail.html:23
+msgid "Id:"
+msgstr "Id:"
+
+#: .\catalog\templates\catalog\book_list.html:5
+msgid "Book List"
+msgstr "Danh sách"
+
+#: .\catalog\templates\catalog\book_list.html:15
+msgid "There are no books in the library."
+msgstr "Không có quyển sách nào trong thư viện"
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:4
+msgid "Borrowed books"
+msgstr "Sách được mượn"
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:16
+msgid "There are no books borrowed."
+msgstr "Không có sách nào được mượn."
+
+#: .\catalog\templates\index.html:4
+msgid "Luu Hieu"
+msgstr "Luu Hieu"
+
+#: .\catalog\templates\index.html:5
+msgid "Local Library Home"
+msgstr "Local Library Home"
+
+#: .\catalog\templates\index.html:6
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr "Chào mừng đến với LocalLibrary, một trang web được phát triển bởi"
+
+#: .\catalog\templates\index.html:7
+msgid "Mozilla Developer Network"
+msgstr "Mozilla Developer Network"
+
+#: .\catalog\templates\index.html:7
+msgid "!"
+msgstr "!"
+
+#: .\catalog\templates\index.html:9
+msgid "Dynamic content"
+msgstr "Nội dung"
+
+#: .\catalog\templates\index.html:10
+msgid "The library has the following record counts:"
+msgstr "Thư viện tồn tại các bản ghi sau:"
+
+#: .\catalog\templates\index.html:12
+msgid "Books:"
+msgstr "Sách:"
+
+#: .\catalog\templates\index.html:13
+msgid "Copies:"
+msgstr "Bản sao:"
+
+#: .\catalog\templates\index.html:14
+msgid "Copies available:"
+msgstr "Bản sao sắn có"
+
+#: .\catalog\templates\index.html:15
+msgid "Authors:"
+msgstr "Tác giả:"
+
+#: .\catalog\templates\index.html:16
+msgid "Genres:"
+msgstr "Thể loại:"
+
+#: .\catalog\templates\index.html:17
+msgid "You have visited this page"
+msgstr "Bạn đã ghé thăm trang này"
+
+#: .\catalog\templates\index.html:17
+msgid "time"
+msgstr "lần"
+
+#: .\catalog\templates\registration\logged_out.html:4
+msgid "Logged out!"
+msgstr "Đã đăng xuất"
+
+#: .\catalog\templates\registration\logged_out.html:5
+msgid "Click here to login again."
+msgstr "Nhấn vào đây để đăng nhập lại"
+
+#: .\catalog\templates\registration\login.html:6
+msgid "Your username and password didn't match. Please try again."
+msgstr "Tên người dùng và mật khẩu của bạn không khớp. Vui lòng thử lại."
+
+#: .\catalog\templates\registration\login.html:14
+msgid "Please login to see this page."
+msgstr "Vui lòng đăng nhập để xem trang."
+
+#: .\catalog\templates\registration\login.html:34
+msgid "Lost password?"
+msgstr "Quên mật khẩu à?"
+
+#: .\catalog\templates\registration\password_reset_complete.html:4
+msgid "The password has been changed!"
+msgstr "Mật khẩu đã được đổi nha!"
+
+#: .\catalog\templates\registration\password_reset_complete.html:5
+msgid "log in again?"
+msgstr "Đăng nhập lại ha?"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:5
+msgid "Please enter (and confirm) your new password."
+msgstr "Vui lòng nhập và xác nhận mật khẩu mới"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:11
+msgid "New password:"
+msgstr "Mật khẩu mới:"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:16
+msgid "Confirm password:"
+msgstr "Xác nhận mật khẩu"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:26
+msgid "Password reset failed"
+msgstr "Đặt lại mật khẩu không thành công"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:27
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr "Link đổi mật khẩu không hợp lệ, có thể rằng nó đã được sử dụng. Vui lòng gửi
+yêu cầu đổi mới mật khẩu lại."
+
+#: .\catalog\templates\registration\password_reset_done.html:4
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr "Chúng tôi đã gửi mail cho bạn về hướng dẫn cài đặt mật khẩu.
+Nếu bạn không thấy trong vài phút tới, vui lòng kiểm tra mục spam nhe."

@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-08 08:15+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\catalog\models.py:10
+msgid "Enter a book genre (e.g. Science Fiction)"
+msgstr "Enter a book genre"
+
+#: .\catalog\models.py:18
+msgid "Enter a brief description of the book"
+msgstr "Enter a brief description"
+
+#: .\catalog\models.py:20
+msgid ""
+"13 Character <a href=\"https://www.isbn-international.org/content/what-isbn"
+"\">ISBN number</a>"
+msgstr "ISBN number"
+
+#: .\catalog\models.py:21
+msgid "Select a genre for this book"
+msgstr "Select a genre"
+
+#: .\catalog\models.py:42
+msgid "Unique ID for this particular book across whole library"
+msgstr "Unique ID"
+
+#: .\catalog\models.py:60
+msgid "Book availability"
+msgstr "Book availability"
+
+#: .\catalog\templates\base_generic.html:19
+msgid "Home"
+msgstr "Home"
+
+#: .\catalog\templates\base_generic.html:20
+msgid "All books"
+msgstr "All books"
+
+#: .\catalog\templates\base_generic.html:21
+msgid "All authors"
+msgstr "All authors"
+
+#: .\catalog\templates\base_generic.html:23
+msgid "User"
+msgstr "User"
+
+#: .\catalog\templates\base_generic.html:24
+msgid "My Borrowed"
+msgstr "My Borrowed"
+
+#: .\catalog\templates\base_generic.html:25
+msgid "Logout"
+msgstr "Logout"
+
+#: .\catalog\templates\base_generic.html:27
+msgid "Login"
+msgstr "Login"
+
+#: .\catalog\templates\catalog\author_detail.html:5
+msgid "Name:"
+msgstr "Name"
+
+#: .\catalog\templates\catalog\author_detail.html:6
+msgid "Date of birth:"
+msgstr "Date of birth"
+
+#: .\catalog\templates\catalog\author_detail.html:7
+msgid "Date of death:"
+msgstr "Date of death"
+
+#: .\catalog\templates\catalog\author_list.html:5
+msgid "Author List"
+msgstr "Author List"
+
+#: .\catalog\templates\catalog\author_list.html:15
+msgid "There are no author in the library."
+msgstr "No author"
+
+#: .\catalog\templates\catalog\book_detail.html:5
+msgid "Title:"
+msgstr "Title"
+
+#: .\catalog\templates\catalog\book_detail.html:6
+msgid "Author:"
+msgstr "Author"
+
+#: .\catalog\templates\catalog\book_detail.html:7
+msgid "Summary:"
+msgstr "Summary"
+
+#: .\catalog\templates\catalog\book_detail.html:8
+msgid "ISBN:"
+msgstr "ISBN"
+
+#: .\catalog\templates\catalog\book_detail.html:9
+msgid "Language:"
+msgstr "Language"
+
+#: .\catalog\templates\catalog\book_detail.html:10
+msgid "Genre:"
+msgstr "Genre"
+
+#: .\catalog\templates\catalog\book_detail.html:13
+msgid "Copies"
+msgstr "Copies"
+
+#: .\catalog\templates\catalog\book_detail.html:20
+msgid "Due to be returned:"
+msgstr "Due day"
+
+#: .\catalog\templates\catalog\book_detail.html:22
+msgid "Imprint:"
+msgstr "Imprint"
+
+#: .\catalog\templates\catalog\book_detail.html:23
+msgid "Id:"
+msgstr "Id"
+
+#: .\catalog\templates\catalog\book_list.html:5
+msgid "Book List"
+msgstr "Book List"
+
+#: .\catalog\templates\catalog\book_list.html:15
+msgid "There are no books in the library."
+msgstr "No books"
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:4
+msgid "Borrowed books"
+msgstr "Borrowed books"
+
+#: .\catalog\templates\catalog\bookinstance_list_borrowed_user.html:16
+msgid "There are no books borrowed."
+msgstr "No books"
+
+#: .\catalog\templates\index.html:4
+msgid "Luu Hieu"
+msgstr "Luu Hieu"
+
+#: .\catalog\templates\index.html:5
+msgid "Local Library Home"
+msgstr "Local Library Home"
+
+#: .\catalog\templates\index.html:6
+msgid "Welcome to LocalLibrary, a website developed by"
+msgstr "Welcome to LocalLibrary, a website developed by"
+
+#: .\catalog\templates\index.html:7
+msgid "Mozilla Developer Network"
+msgstr "Mozilla Developer Network"
+
+#: .\catalog\templates\index.html:7
+msgid "!"
+msgstr "!"
+
+#: .\catalog\templates\index.html:9
+msgid "Dynamic content"
+msgstr "Dynamic content"
+
+#: .\catalog\templates\index.html:10
+msgid "The library has the following record counts:"
+msgstr "The library has the following record counts:"
+
+#: .\catalog\templates\index.html:12
+msgid "Books:"
+msgstr "Books"
+
+#: .\catalog\templates\index.html:13
+msgid "Copies:"
+msgstr "Copies"
+
+#: .\catalog\templates\index.html:14
+msgid "Copies available:"
+msgstr "Copies available"
+
+#: .\catalog\templates\index.html:15
+msgid "Authors:"
+msgstr "Authors"
+
+#: .\catalog\templates\index.html:16
+msgid "Genres:"
+msgstr "Genres"
+
+#: .\catalog\templates\index.html:17
+msgid "You have visited this page"
+msgstr "You have visited this page"
+
+#: .\catalog\templates\index.html:17
+msgid "time"
+msgstr "time"
+
+#: .\catalog\templates\registration\logged_out.html:4
+msgid "Logged out!"
+msgstr "Logged out!"
+
+#: .\catalog\templates\registration\logged_out.html:5
+msgid "Click here to login again."
+msgstr "Click here to login again."
+
+#: .\catalog\templates\registration\login.html:6
+msgid "Your username and password didn't match. Please try again."
+msgstr "Your username and password didn't match. Please try again."
+
+#: .\catalog\templates\registration\login.html:14
+msgid "Please login to see this page."
+msgstr "Please login to see this page."
+
+#: .\catalog\templates\registration\login.html:34
+msgid "Lost password?"
+msgstr "Lost password?"
+
+#: .\catalog\templates\registration\password_reset_complete.html:4
+msgid "The password has been changed!"
+msgstr "The password has been changed!"
+
+#: .\catalog\templates\registration\password_reset_complete.html:5
+msgid "log in again?"
+msgstr "log in again?"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:5
+msgid "Please enter (and confirm) your new password."
+msgstr "Please enter (and confirm) your new password."
+
+#: .\catalog\templates\registration\password_reset_confirm.html:11
+msgid "New password:"
+msgstr "New password:"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:16
+msgid "Confirm password:"
+msgstr "Confirm password:"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:26
+msgid "Password reset failed"
+msgstr "Password reset failed"
+
+#: .\catalog\templates\registration\password_reset_confirm.html:27
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used. Please request a new password reset."
+msgstr "The password reset link was invalid, possibly because it has already been
+used. Please request a new password reset. "
+
+#: .\catalog\templates\registration\password_reset_done.html:4
+msgid ""
+"We've emailed you instructions for setting your password. If they haven't "
+"arrived in a few minutes, check your spam folder."
+msgstr "We've emailed you instructions for setting your password. If they haven't 
+arrived in a few minutes, check your spam folder."

@@ -1,0 +1,8 @@
+{% extends "base_generic.html" %}
+{% load i18n %}
+
+{% block content %}
+    <h1>{% translate "Name:" %} {{ author.last_name }}</h1>
+    <p><strong>{% translate "Date of birth:" %}</strong>{{ author.date_of_birth }}</p>
+    <p><strong>{% translate "Date of death:" %}</strong> {{ author.date_of_deadth }}</p>
+{% endblock %}
