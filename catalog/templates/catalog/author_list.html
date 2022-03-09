@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+{% load i18n %}
+
+{% block content %}
+    <h1>{% translate "Author List" %}</h1>
+    {% if author_list %}
+        <ul>
+            {% for author in author_list %}
+                <li>
+                    <a href="{{ author.get_absolute_url }}">{{ author.first_name }}</a> ({{ author.date_of_birth }})
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>{% translate "There are no author in the library." %}</p>
+    {% endif %}
+{% endblock %}
